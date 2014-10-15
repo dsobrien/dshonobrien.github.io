@@ -90,7 +90,9 @@
 				</div>
 			</div>
 		</div>		
-
+        <!-- Video Background - Here you need to replace the videoURL with your youtube video URL -->
+			<a id="bgndVideo" class="player" data-property="{videoURL:'http://www.youtube.com/watch?v=NTDwXK64Bjk',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}">youtube</a>
+			
 			<div id="home">	
 				<div class="just_pattern"></div>	
 				<div class="big-text">
@@ -117,13 +119,8 @@
 						</li>
 					</ul>	
 				</div>	
-				<div id="wrapper-slider">
-					<div id="controls">
-						<div class="prev"></div>
-						<div class="next"></div>
-					</div>
-				</div>			
-				<a class="scroll" href="#about"><div class="scroll-btn tipped" data-title="about me"  data-tipper-options='{"direction":"top","follow":"true"}'></div></a>
+				<a id="video-volume" onclick="$('#bgndVideo').toggleVolume()"><i class="icon-volume-down"></i></a>				
+				<a class="scroll" href="#about"><div class="scroll-btn tipped" data-title="about agency"  data-tipper-options='{"direction":"top","follow":"true"}'></div></a>
 			</div>
 
 			
